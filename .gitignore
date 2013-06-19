@@ -1,0 +1,32 @@
+# mac / IDE
+.project
+.settings
+nbproject
+.idea
+.DS_Store
+
+# log stuff
+log/*.log
+
+# other files
+resume.pdf
+tmp
+logs
+nohup*
+
+# other ruby-specific files
+*.gem
+.rvmrc
+coverage/
+doc
+rdoc
+pkg/
+projectFilesBackup/
+.yardoc
+.bundle
+.rubyversion
+.ruby-version
+Gemfile.lock
+.autotest
+rspec_results.html
+spec/rspec_results.html
