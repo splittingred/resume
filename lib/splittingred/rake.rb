@@ -24,12 +24,12 @@ namespace :splittingred do
     Launchy.open('https://linkedin.com/in/splittingred')
   end
 
-  desc 'View my résumé'
+  desc 'View my resume'
   task :resume do
     Launchy.open('http://splittingred.com/resume.pdf')
   end
 
-  desc 'Download my résumé'
+  desc 'Download my resume'
   task :resume_download do
     `wget http://splittingred.com/resume.pdf`
   end
