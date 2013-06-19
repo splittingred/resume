@@ -1,8 +1,8 @@
 require 'launchy'
 
 namespace :splittingred do
-  desc 'Launch my GitHub page, Twitter profile, LinkedIn profile and resume.'
-  task :all => [:github,:twitter,:linkedin,:resume]
+  desc 'Launch my personal website, GitHub page, Twitter profile, LinkedIn profile and resume.'
+  task :all => [:website,:github,:twitter,:linkedin,:resume]
 
   desc 'Launch my GitHub page.'
   task :github do
