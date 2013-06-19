@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.platform      = Gem::Platform::RUBY
   gem.authors       = ['Shaun McCormick']
   gem.email         = %w(splittingred@gmail.com)
-  gem.description   = %q{Shaun McCormick's resume in gem form}
-  gem.summary       = %q{Shaun McCormick's resume in gem form}
+  gem.description   = %q{Shaun McCormick's résumé in gem form}
+  gem.summary       = %q{Shaun McCormick's résumé in gem form}
   gem.homepage      = 'https://github.com/splittingred/resume'
   gem.license       = 'MIT'
 

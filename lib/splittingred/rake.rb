@@ -1,7 +1,7 @@
 require 'launchy'
 
 namespace :splittingred do
-  desc 'Launch my GitHub page, Twitter profile, LinkedIn profile and resume.'
+  desc 'Launch my GitHub page, Twitter profile, LinkedIn profile and résumé.'
   task :all => [:github,:twitter,:linkedin,:resume]
 
   desc 'Launch my GitHub page.'
@@ -24,12 +24,12 @@ namespace :splittingred do
     Launchy.open('https://linkedin.com/in/splittingred')
   end
 
-  desc 'View my resume'
+  desc 'View my résumé'
   task :resume do
     Launchy.open('http://splittingred.com/resume.pdf')
   end
 
-  desc 'Download my resume'
+  desc 'Download my résumé'
   task :resume_download do
     `wget http://splittingred.com/resume.pdf`
   end
