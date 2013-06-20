@@ -4,6 +4,7 @@
 nbproject
 .idea
 .DS_Store
+.yardoc
 
 # log stuff
 log/*.log

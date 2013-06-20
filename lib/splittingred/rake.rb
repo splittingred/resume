@@ -1,5 +1,6 @@
 require 'launchy'
 
+# Rake tasks for launching the resume
 namespace :splittingred do
   desc 'Launch my personal website, GitHub page, Twitter profile, LinkedIn profile and resume.'
   task :all => [:website,:github,:twitter,:linkedin,:resume]

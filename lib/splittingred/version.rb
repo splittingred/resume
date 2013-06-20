@@ -1,3 +1,5 @@
+# @author Shaun McCormick
 module Splittingred
-  VERSION = '0.1.3'
+  # The version of my resume app
+  VERSION = '0.2.0'
 end
