@@ -31,7 +31,6 @@ In that Rakefile place:
     require 'rubygems'
     require 'splittingred'
 
-Then from a Terminal type:
+Then type:
 
-    irb
-    > `rake splittingred`
+    rake splittingred
